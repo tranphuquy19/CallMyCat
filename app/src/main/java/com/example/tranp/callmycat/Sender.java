@@ -9,7 +9,7 @@ import java.net.Socket;
 
 public class Sender extends AsyncTask<String, Void, Void> {
     Socket socket;
-    DataOutputStream dataOutputStream;
+    //DataOutputStream dataOutputStream;
     PrintWriter printWriter;
     protected Void doInBackground(String... strings) {
         String message = strings[0];
